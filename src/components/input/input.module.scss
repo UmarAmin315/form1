@@ -1,0 +1,27 @@
+.inputContainer {
+  position: relative;
+  margin-top: 20px;
+  label {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2c2c2c;
+  }
+  input {
+    border-radius: 4px;
+    padding: 10px 8px;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 8px;
+    background: #f4f4f4;
+    border: 2px solid #d5d5d5;
+    color: black;
+    &:focus {
+      outline: none;
+      border: 2px solid #5d77a0 !important;
+    }
+    &::placeholder {
+      color: #4142429a;
+    }
+  }
+}

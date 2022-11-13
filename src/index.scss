@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px !important;
+  padding: 0px;
+  scroll-behavior: smooth;
+  color: #2c2c2c;
+  background-color: #59c0d9;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
